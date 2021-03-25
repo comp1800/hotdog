@@ -51,13 +51,33 @@
     </nav>
 
     <div class="container">
-        <h1 class="display-4"> Hello, CST! </h1>
+        <h1 class="display-4"> Hello, <span id="username">CST!</span> </h1>
         <h1> You are now logged in. </h1>
+        <div id="cities-go-here"> </div>
     </div>
 
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div id="carousel-pics-go-here" class="carousel-inner">
+        </div>
+    </div>
+
+    <!-- check box example -->
+    <div class="container">
+        <label> Event Name </label>
+        <input id="event-name" type="text">
+        <br>
+        <input id="monday" type="checkbox">
+        <label class="form-check-label"> Monday </label>
+        <br>
+        <input id="tuesday" type="checkbox">
+        <label class="form-check-label"> Tuesday </label>
+        <br>
+        <button type="button" id="finish" class="btn btn-outline-success">Finish</button>
+    </div>
     <!----------------------------------------------->
     <!-- JS: Boostrap, Firebase, API related    -->
     <!----------------------------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
     </script>
